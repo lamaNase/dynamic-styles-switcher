@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Home Page</title>
+        <link id="stylesheet" rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to my Homepage</h1>
+            <h2>Use the menu to select different Stylesheets</h2>
+        </header>
+        <div class="main-section">
+            <h1>Same Page Different Stylesheets</h1>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links: <i onclick="restyle(0)">Stylesheet1</i>, <i onclick="restyle(1)">Stylesheet2</i>, <i onclick="restyle(2)">Stylesheet3</i>, <i onclick="restyle(3)">Stylesheet4</i>.</p>
+            <h1>No Styles</h1>
+            <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet: No Stylesheet.</p>
+            <ul class="navbar" id="menulist">
+                <li id="stylesheet1" onclick="restyle(0)">
+                    stylesheet 1
+                </li>
+                <li id="stylesheet2" onclick="restyle(1)">
+                    stylesheet 2
+                </li>
+                <li id="stylesheet3" onclick="restyle(2)">
+                    stylesheet 3
+                </li>
+                <li id="stylesheet4" onclick="restyle(3)">
+                    stylesheet 4
+                </li>
+            </ul>
+        </div>
+        <div class="side-bar">
+            <h1>Side-Bar</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+        <footer>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        </footer>
+
+        <script>
+            function restyle(index) {
+                const stylesheets = ["styles1.css", "styles2.css", "styles3.css", "styles4.css"];
+                document.getElementById("stylesheet").href = stylesheets[index];
+            }
+        </script>
+    </body>
+</html>

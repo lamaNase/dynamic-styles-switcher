@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(211, 63, 63);
+    color: white;
+}
+
+h1 {font-size: 55px;}
+
+header {margin-left: 80px;}
+
+header h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+header h2 {font-size: 40px;}
+
+.main-section {
+    background-color: white;
+    color: rgb(211, 63, 63);
+    padding: 25px 300px 25px 50px;
+    margin-right: 100px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.main-section > p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    font-size: 35px;
+}
+
+.main-section > p > i {text-decoration: underline;}
+
+.main-section p i:hover {
+    cursor: pointer;
+}
+
+.side-bar {
+    background-color: rgb(229, 179, 179);
+    color: black;
+    padding: 20px 15px 20px 15px;
+    margin-right: 100px;
+    margin-left: 80px;
+    font-size: 35px;
+}
+
+.side-bar > p {width: 65%;}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    text-align: center;
+    width: 75%;
+    font-size: 35px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 60px;
+    top: 100px;
+}
+
+.navbar li {
+    background-color: rgb(211, 63, 63);
+    color: white;
+    font-size: 40px;
+    border: 5px solid rgb(211, 63, 63);
+    border-radius: 25px;
+    margin-bottom: 30px;
+    padding: 5px 45px 5px 45px;
+    text-align: center;
+}
+
+.navbar li:hover {
+    background-color: white;
+    color: rgb(211, 63, 63);
+    cursor: pointer;
+}
+
+#stylesheet2 {
+    background-color: white;
+    color: rgb(211, 63, 63);
+}

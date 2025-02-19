@@ -1,0 +1,84 @@
+header {
+    background-color: rgb(81, 178, 81);
+    color: white;
+    padding: 35px;
+    margin: 20px;
+}
+
+h1 {font-size: 55px;}
+
+header h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+header h2 {font-size: 40px;}
+
+.main-section {
+    color: black;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 35px;
+    padding: 40px 20px 25px 450px;
+}
+
+.main-section > p {
+    width: 70%;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-section > p > i {text-decoration: underline;}
+.main-section p i:hover {
+    cursor: pointer;
+}
+
+.side-bar {
+    background-color: rgb(98, 152, 233);
+    color: white;
+    padding: 25px 20px 25px 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.side-bar > p {width: 65%; font-size: 35px;}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    text-align: center;
+    width: 75%;
+    font-size: 35px;
+}
+
+.navbar {
+    list-style-type: none;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.navbar > li {
+    border: 5px solid rgb(239, 224, 224);
+    border-radius: 15px;
+    background-color: rgb(239, 224, 224);
+    padding: 2px 75px 2px 75px;
+    text-align: center;
+    margin-bottom: 5dvh;
+}
+
+.navbar li:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#stylesheet1 {
+    background-color: rgb(81, 178, 81);
+    color: white;
+}
